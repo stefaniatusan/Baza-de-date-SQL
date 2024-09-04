@@ -204,9 +204,6 @@ select*from sales order by standardCost;
 select*from sales order by sellStartDate desc limit 2008;
 ```
 ```
-select max(sellStartDate) from sales;
-```
-```
 select*from salesordersdetail s left join delivery d on s.sales_orderId = d.productId where d.productId is null;
 ```
 ```
